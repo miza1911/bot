@@ -16,6 +16,10 @@ from aiogram.filters import Command
 from aiogram.types import InlineQuery, InlineQueryResultPhoto
 from aiogram.exceptions import TelegramBadRequest
 
+git add fly.toml
+git commit -m "add fly.toml config"
+git push origin main
+
 # ---------- ENV ----------
 BOT_TOKEN = os.environ["BOT_TOKEN"]              # токен от BotFather
 PUBLIC_URL = os.environ["PUBLIC_URL"].rstrip("/")  # напр. https://kompli-bot.fly.dev
